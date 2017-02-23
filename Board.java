@@ -25,12 +25,8 @@ public class Board {
 				}
 				if(Board[i][j] == 0) {
 					System.out.println(" ");
-				}
-				//do not know why define this |
-				if(j == 0 || j == 1) {
-					System.out.println("|");
-				}
-				System.out.println( "");
+				}				
+				System.out.println(" ");
 			}
 		}
 	}
